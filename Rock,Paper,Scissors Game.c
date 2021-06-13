@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<time.h>
 
+//Rock paper Scissor Game
+
 int generateRandomNumber(int n)
     {
 	srand(time(NULL)); //srand takes seed as an input and is defined inside stdlib.h
